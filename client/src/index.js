@@ -13,4 +13,4 @@ const store = createStore(
     composeEnhancers(applyMiddleware())
     );
 
-ReactDOM.render(<Provider store={store}> <App /> </Provider>, document.getElementById('root'));
+ReactDOM.render(<Provider store={store}> <App /> </Provider>, document.getElementById('root')); 
